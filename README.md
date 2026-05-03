@@ -1,9 +1,16 @@
 # LeetCode Solutions
 
+**LeetCode ID:** `Yuechen_Yang`
 
-Total solved: **1**
+**Total solved:** 1
 
+## Language Stats
+
+- Python: 1
 
 ## Problem List
 
-- `0459-repeated-substring-pattern.py`
+1. `0459-repeated-substring-pattern.py`
+
+---
+_Last updated: 2026-05-03 14:35 UTC_
