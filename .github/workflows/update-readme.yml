@@ -12,6 +12,9 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -32,5 +35,4 @@ jobs:
           git diff --cached --quiet || git commit -m "Auto-update README"
 
       - name: Push changes
-        if: success()
         run: git push
